@@ -311,6 +311,38 @@
     background: var(--primary);
 }
 
+/*** Clients ***/
+.clients-carousel .owl-item img {
+    /* width: 300px; */
+    /* height: 100px; */
+}
+
+.clients-carousel .owl-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.clients-carousel .owl-nav .owl-prev,
+.clients-carousel .owl-nav .owl-next {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark);
+    border: 2px solid var(--primary);
+    border-radius: 50px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.clients-carousel .owl-nav .owl-prev:hover,
+.clients-carousel .owl-nav .owl-next:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+}
 
 /*** Footer ***/
 .footer {
